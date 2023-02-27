@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<!-- This webpage is completed for a college assignment, and has no official relation to Limerick.ie, its sister websites or the Limerick City and County Council
+Images used within this project are used with the permission of their respective copyright holders.-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.ico" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+    <script defer src="js/smooth.js"></script>
+
+    <title>Limerick Lens &mdash; A look at events in Limerick!</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Limerick logo" src="img/LimerickLogo.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#Upcoming">This Month</a></li>
+          <li><a class="main-nav-link" href="#events">Events</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#sibling">More</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#video">Videos</a>
+          </li>
+          <li><a href="ContactUs.html" class="main-nav-link nav-contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero" id="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              A look at every event, on your doorstep.
+            </h1>
+            <p id="hero-description">
+              Events run 365-days-per-year, you are bound to find something for you and the whole family to enjoy. 
+              From sports to concerts, puppet-shows to markets, Limerick has it all!
+            </p>
+            <a href="#" class="btn btn--full margin-right-sm"
+              >Visit Limerick Now</a
+            >
+
+            <a href="#Upcoming" class="btn btn--outline">Learn more &darr;</a>
+            <div class="event-visitors">
+              <div class="visitors-imgs">
+                <!-- Customer Images from Randomuser.me -->
+                <img src="img/customers/customer-1.jpg" alt="Customer photo of Customer 01" />
+                <img src="img/customers/customer-2.jpg" alt="Customer photo of Customer 02" />
+                <img src="img/customers/customer-3.jpg" alt="Customer photo of Customer 03" />
+                <img src="img/customers/customer-4.jpg" alt="Customer photo of Customer 04" />
+                <img src="img/customers/customer-5.jpg" alt="Customer photo of Customer 05" />
+                <img src="img/customers/customer-6.jpg" alt="Customer photo of Customer 06" />
+              </div>
+              <p class="visitors-text">
+                <span>1,000,000+</span> visitors at events last year!
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <!-- Pigtown Image Source: LimerickIE-->
+              <img
+                src="img/hero.png"
+                class="hero-img"
+                alt="The Saw Doctors playing Guitar, Steve Spade Performing an Escape Act, Jack Spratt and Ruth Guiren at Pig Town Festival"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-sponsored">
+        <div class="container">
+          <h2 class="heading-sponsored-in">Sponsored By</h2>
+          <div class="logos">
+            <!-- Src: LimerickChamberCommerce.ie-->
+            <img src="img/logos/limerick-chamber-logo.png" alt="Limerick Chamber of Commerce Logo" />
+            <!-- Src: Thomondpark.ie-->
+            <img
+              src="img/logos/thomond-logo.png"
+              alt="Thomond Park Logo"
+            />
+            
+            <!-- Src: Limerick.ie-->
+            <img src="img/logos/limerick_CC.png" alt="Limerick City & County Council Logo" />
+            <!-- Src: Localenterprise.ie-->
+            <img
+              src="img/logos/LEO.png"
+              alt="Local Enterprise Office Logo"
+            />
+            <!-- Limerick Sports Partnership-->
+            <img src="img/logos/limerickSportsPartnership.png" alt="Limerick Sports Partnership logo" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-upcoming" id="Upcoming">
+        <div class="container">
+          <span class="subheading">Upcoming</span>
+          <h2 class="heading-secondary">
+            Upcoming events for March 2023!
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- 17th -->
+          <div class="upcoming-text-box">
+            <p class="upcoming-date">17th</p>
+            <h3 class="heading-tertiary">
+                Limerick St. Patrick's Festival 2023
+            </h3>
+            <p class="upcoming-description">
+                The fun and craic associated with the Limerick St. Patrick’s Festival
+                 makes a welcome return to the city streets from 17th to 19th March 2023.
+                  The Limerick St. Patrick’s Festival will include the traditional St. Patrick’s Day
+                   Parade on Friday 17th March and a host of other family-friendly events.
+            </p>
+          </div>
+
+          <div class="upcoming-img-box">
+            <!-- Src: Sean Curtin/LimerickIE-->
+            <img
+              src="img/events/st-patricks-day-parade-pic-sean-curtin-810x456.jpg"
+              class="upcoming-img upcoming-img-horiz"
+              alt="Clown with Ireland Flag Facepaint for St. Patricks Day"
+            />
+          </div>
+
+          <!-- 19th -->
+          <div class="upcoming-img-box">
+            <!-- Src: Sean Curtin/LimerickIE-->
+            <img
+              src="img/events/mullingar-town-band-at-the-49th-limerick-international-band-championship-pic-sean-curtin-810x456.jpg"
+              class="upcoming-img upcoming-img-horiz"
+              alt="Limerick International Band Championship"
+            />
+          </div>
+          <div class="upcoming-text-box">
+            <p class="upcoming-date">19th</p>
+            <h3 class="heading-tertiary">51st Limerick International Band Championship</h3>
+            <p class="upcoming-description">
+                The 51st edition of the International Band Championship will see the streets of
+                 Limerick filled with the spectacular sight and sound of talented marching band
+                  musicians from across Ireland, Europe and America for Ireland’s only International
+                   Band Championship at 12pm on Sunday 19th March 2023. Cheer on the bands as they
+                    march through the city competing to be crowned International Band Champions!
+            </p>
+          </div>
+
+          <!-- 25th -->
+          <div class="upcoming-text-box">
+            <p class="upcoming-date">25th</p>
+            <h3 class="heading-tertiary">Munster Rugby V Glasgow Warriors</h3>
+            <p class="upcoming-description">
+              Munster take on rivals The Glasgow Warriors in a clash of the titans event at Thomond Park!
+            </p>
+          </div>
+          <div class="upcoming-img-box">
+            <!-- Src: LimerickIE-->
+            <img
+              src="img/events/ThomondPark_LimerickIE.jpg"
+              class="upcoming-img upcoming-img-horiz"
+              alt="Thomond Park on match day"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-events" id="events">
+        <div class="container center-text">
+          <span class="subheading">Events</span>
+          <h2 class="heading-secondary">
+            Events happening soon
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="event">
+            <!-- Src: LimerickIE-->
+            <img
+              src="img/events/Adult_Clay_Workshop_LimerickIE.png"
+              class="event-img"
+              alt="Hands Moulding Clay"
+            />
+            <div class="event-content">
+              <div class="event-tags">
+                <span class="tag tag--art">Art</span>
+              </div>
+              <p class="event-title">Adult Clay Workshop</p>
+              <ul class="event-attributes">
+                <li class="event-attribute">
+                  <ion-icon class="event-icon" name="calendar-outline"></ion-icon>
+                  <span>March 5th</span>
+                </li>
+                <li class="event-attribute">
+                  <ion-icon
+                    class="event-icon"
+                    name="time-outline"
+                  ></ion-icon>
+                  <span>11.30am - 1.30pm</span>
+                </li>
+                <li class="event-attribute">
+                  <ion-icon class="event-icon" name="location-outline"></ion-icon>
+                  <span>The Hunt Museum</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="event">
+            <!-- Src: LimerickIE-->
+            <img
+              src="img/events/The_Addams_Family_LimeTree.png"
+              class="event-img"
+              alt="Poster for The Aadams Family - The Musical Comedy"
+            />
+            <div class="event-content">
+              <div class="event-tags">
+                <span class="tag tag--children">Kids</span>
+                <span class="tag tag--family">Family</span>
+              </div>
+              <p class="event-title">The Aadams Family - The Musical Comedy</p>
+              <ul class="event-attributes">
+                <li class="event-attribute">
+                  <ion-icon class="event-icon" name="calendar-outline"></ion-icon>
+                  <span>March 3rd</span>
+                </li>
+                <li class="event-attribute">
+                  <ion-icon
+                    class="event-icon"
+                    name="time-outline"
+                  ></ion-icon>
+                  <span>8pm</span>
+                </li>
+                <li class="event-attribute">
+                  <ion-icon class="event-icon" name="location-outline"></ion-icon>
+                  <span>Lime Tree Theatre</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="diets">
+            <h3 class="heading-tertiary">Something for everyone:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Family</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Kids</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Music</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Sports</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Theatre</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>On the River</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Outdoor</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Markets</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Adult</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container all-events">
+          <a href="#" class="link">See all events &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary">Once you've been here, you'll never want to leave</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <!-- Src: RandomUser.me-->
+              <img
+                class="testimonial-img"
+                alt="Photo of visitors John Begley"
+                src="https://randomuser.me/api/portraits/men/3.jpg"
+              />
+              <blockquote class="testimonial-text">
+                I was in Limerick last year for the 2022 Great Limerick Run, everyone was so friendly and accomodating. I can't wait to return next year.
+              </blockquote>
+              <p class="testimonial-name">&mdash; John Begley</p>
+            </figure>
+
+            <figure class="testimonial">
+              <!-- Src: RandomUser.me-->
+              <img
+                class="testimonial-img"
+                alt="Photo of visitors Sarah Smith"
+                src="https://randomuser.me/api/portraits/women/13.jpg"
+              />
+              <blockquote class="testimonial-text">
+                Some friends and I came up from Cork to watch The Corona's play at the big top! Such an amazing gig. 10/10 City!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Sarah Smith</p>
+            </figure>
+
+            <figure class="testimonial">
+              <!-- Src: GettyImages-->
+              <img
+                class="testimonial-img"
+                alt="Photo of visitors Bill Murray"
+                src="img/visitors/BillMurray_GettyImages.jpg"
+              />
+              <blockquote class="testimonial-text">
+                I was invited to Limerick to play some golf in the Adare Manor. Limerick has always been one of the most welcoming,
+                and honest cities I've visited in my career. 
+              </blockquote>
+              <p class="testimonial-name">&mdash; Bill Murray</p>
+            </figure>
+
+            <figure class="testimonial">
+              <!-- Src: RandomUser.me-->
+              <img
+                class="testimonial-img"
+                alt="Photo of visitors Beth Jones"
+                src="https://randomuser.me/api/portraits/women/26.jpg"
+              />
+              <blockquote class="testimonial-text">
+                I last visited Limerick when I was 17, and always wanted to return. It's only gotten better than I remember.
+                The atmosphere around Christmas was amazing!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Beth Jones</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <!-- Src: LimerickLive-->
+            <img
+              src="img/gallery/Pigtown_LimerickLive.jpg"
+              alt="A family celebrating Pigtown"
+            />
+          </figure>
+          <!-- Src: LimerickIE-->
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/BandParade_LimerickIE.jpg"
+              alt="Young Kids enjoying themselves at the International Band Championships"
+            />
+          </figure>
+          <!-- Src: GreatLimerickRun.ie-->
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/GLR_GreatLimerickRunIE.jpg"
+              alt="Revellers enjoying the Great Limerick Run"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <!-- Src: Independent.IE-->
+            <img
+              src="img/gallery/Granny_IndependentIE.jpg"
+              alt="Giant Granny of Royal De Luxe"
+            />
+          </figure>
+          <!-- Src: SeanCurtin/LimerickIE-->
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/Christmas_SeanCurtin.jpg"
+              alt="An elf getting ready for Christmas"
+            />
+          </figure>
+          <figure class="gallery-item">
+          <!-- Src: Dolans.ie-->
+            <img
+              src="img/gallery/Trad_DolansIE.jpg"
+              alt="A trad session in Dolans Warehouse"
+            />
+          </figure>
+          <figure class="gallery-item">
+          <!-- Src: Cillian Keogh-->
+            <img
+              src="img/gallery/SawDoctors.JPG"
+              alt="The Saw Doctors playing in the Milk Market"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <!-- Src: Cillian Keogh-->
+            <img
+              src="img/gallery/OverloadDark.JPG"
+              alt="Dancers at Overload Dark"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <!-- Src: Cillian Keogh-->
+            <img
+              src="img/gallery/SammyLongOutbreakZombie.jpg"
+              alt="Sammy Long about to be eaten by Zombies at the Outbreak Zombie Festival"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <!-- Src: Cillian Keogh-->
+            <img
+              src="img/gallery/TheOriginalRudeboys.JPG"
+              alt="The Original Rudeboys playing in The Stables"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <!-- Src: Cillian Keogh-->
+            <img
+              src="img/gallery/SteveSpadeBurning.JPG"
+              alt="Escape Artist Steve Spade burning at the stake in King Johns Castle"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <!-- Src: Brian Arthur-->
+            <img
+              src="img/gallery/FigetFeet_Riverfest_BrianArthur.jpg"
+              alt="Figet Feet Ariel Dancers performing at Riverfest"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-sibling" id="sibling">
+        <div class="container">
+          <span class="subheading">More</span>
+          <h2 class="heading-secondary">
+            Visit our sister websites for more to do!
+          </h2>
+        </div>
+
+        <div class="container grid grid--4-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="pizza-outline"></ion-icon>
+            <p class="feature-title">Limerick Eats!</p>
+            <p class="feature-text">
+              Find the best of local, quality fresh foods that Limerick has to offer!
+            </p>
+            <a href="#" class="link">Visit Limerick Eats &rarr;</a>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="aperture-outline"></ion-icon>
+            <p class="feature-title">Limerick Sees!</p>
+            <p class="feature-text">
+              A selection of Limerick City and Counties amazing tourist attractions and views!
+            </p>
+            <a href="#" class="link">Visit Limerick Sees &rarr;</a>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="ear-outline"></ion-icon>
+            <p class="feature-title">Limerick Hears!</p>
+            <p class="feature-text">
+              Discover the best in music that Limerick has to offer, from Traditional Irish to modern Rap. Limerick has it all.
+            </p>
+            <a href="#" class="link">Visit Limerick Hears &rarr;</a>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="home-outline"></ion-icon>
+            <p class="feature-title">Limerick Stays!</p>
+            <p class="feature-text">
+              Find your home away from home. No matter how long your stay we can help you find the place that you love, in Limerick.
+            </p>
+            <a href="#" class="link">Visit Limerick Sees &rarr;</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-video" id="video">
+        <div class="container">
+          <span class="subheading">Video</span>
+          <h2 class="heading-secondary">
+            View a breath taking tour of Limerick!
+          </h2>
+        </div>
+
+        <div class="container grid">
+          <div class="iframe-container">
+            <!-- Src: Pavol Jr: https://www.youtube.com/watch?v=SkmFSdUMcE4 -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SkmFSdUMcE4" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Limerick logo" src="img/LimerickLogo.png" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by Limerick.ie
+            All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              Limerick, Limerick City, Limerick, Ireland
+            </p>
+            <p>
+              <a class="footer-link" href="tel:061-000000">061-000-000</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@limericklens.fake"
+                >hello@limericklens.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Get in Touch</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Contact Details</a></li>
+            <li><a class="footer-link" href="#">Report a Website Problem</a></li>
+            <li><a class="footer-link" href="#">Have Your Say</a></li>
+            <li><a class="footer-link" href="#">Submit Information</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">About</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Limerick.ie</a></li>
+            <li><a class="footer-link" href="#">Limerick City and County Council</a></li>
+            <li><a class="footer-link" href="#">Web Privacy & Cookie Policy</a></li>
+            <li><a class="footer-link" href="#">Data Protection</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Our Sites</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Limerick Eats </a></li>
+            <li><a class="footer-link" href="#">Limerick Sees</a></li>
+            <li><a class="footer-link" href="#">Limerick Hears</a></li>
+            <li><a class="footer-link" href="#">Limerick Stays</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
