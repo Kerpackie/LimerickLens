@@ -2,6 +2,7 @@
 <!-- This webpage is completed for a college assignment, and has no official relation to Limerick.ie, its sister websites or the Limerick City and County Council
 Images used within this project are used with the permission of their respective copyright holders.-->
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,30 +10,19 @@ Images used within this project are used with the permission of their respective
 
     <link rel="icon" href="img/favicon.ico" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="css/main.css" />
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule=""
-      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
-    ></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
 
-    <script
-      defer
-      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
-    ></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
     <script defer src="js/script.js"></script>
 
     <title>Limerick Lens &mdash; A look at events in Limerick!</title>
   </head>
+
   <body>
     <header class="header">
       <a href="#">
@@ -77,95 +67,61 @@ Images used within this project are used with the permission of their respective
               <form class="contact-form" name="contact" method="post" action="http://litstudentprojects.net/rdwd-newsletter-response.php">
                 <div>
                   <label for="first_name">First Name</label>
-                  <input
-                    id="first_name"
-                    type="text"
-                    placeholder="John"
-                    name="first_name"
-                    required
-                  />
+                  <input id="first_name" type="text" placeholder="John" name="first_name" required />
                 </div>
                 <div>
-                    <label for="last_name">Last Name</label>
-                    <input
-                      id="last_name"
-                      type="text"
-                      placeholder="Doe"
-                      name="last_name"
-                      required
-                    />
-                  </div>
+                  <label for="last_name">Last Name</label>
+                  <input id="last_name" type="text" placeholder="Doe" name="last_name" required />
+                </div>
 
                 <div>
                   <label for="email1">Email address</label>
-                  <input
-                    id="email1"
-                    type="email"
-                    placeholder="me@example.com"
-                    name="email1"
-                    required
-                  />
+                  <input id="email1" type="email" placeholder="me@example.com" name="email1" required />
                 </div>
                 <div>
-                    <label for="email2">Confirm Email</label>
-                    <input
-                      id="email2"
-                      type="email"
-                      placeholder="me@example.com"
-                      name="email2"
-                      required
-                    />
-                  </div>
-
-
-                  <div>
-                    <legend>Your interests? (Tick all that apply):</legend>
-                    <fieldset>
-                        <div class="checkbox-input">
-                            <input type="checkbox" id="interest[]" name="interest[]" value="todo">         
-                            <label for="interest[]">Things to Do</label>
-                        </div>
-                        <div class="checkbox-input">
-                            <input type="checkbox" id="interest[]" name="interest[]" value="hiking">
-                            <label for="interest[]">Hiking and Walking</label>
-                        </div>
-                        <div class="checkbox-input">
-                            <input type="checkbox" id="interest[]" name="interest[]" value="events">         
-                            <label for="interest[]">Events</label>
-                        </div>
-                        <div class="checkbox-input">
-                            <input type="checkbox" id="interest[]" name="interest[]" value="accommodation">
-                            <label for="interest[]">Places to Stay</label>
-                        </div>
-                        <div class="checkbox-input">
-                            <input type="checkbox" id="interest[]" name="interest[]" value="dining">         
-                            <label for="interest[]">Places to Eat</label>
-                        </div>
-                    </fieldset>
+                  <label for="email2">Confirm Email</label>
+                  <input id="email2" type="email" placeholder="me@example.com" name="email2" required />
                 </div>
 
-                  <div>
-                    <label for="phone">Phone Number</label>
-                    <input
-                      id="phone"
-                      type="tel"
-                      placeholder="+353 61 000 000"
-                      name="phone"
-                      required
-                    />
-                    
-                <button class="btn btn--form">Send</button>
-                  </div>
+
+                <div>
+                  <legend>Your interests? (Tick all that apply):</legend>
+                  <fieldset>
+                    <div class="checkbox-input">
+                      <input type="checkbox" id="interest[]" name="interest[]" value="todo">
+                      <label for="interest[]">Things to Do</label>
+                    </div>
+                    <div class="checkbox-input">
+                      <input type="checkbox" id="interest[]" name="interest[]" value="hiking">
+                      <label for="interest[]">Hiking and Walking</label>
+                    </div>
+                    <div class="checkbox-input">
+                      <input type="checkbox" id="interest[]" name="interest[]" value="events">
+                      <label for="interest[]">Events</label>
+                    </div>
+                    <div class="checkbox-input">
+                      <input type="checkbox" id="interest[]" name="interest[]" value="accommodation">
+                      <label for="interest[]">Places to Stay</label>
+                    </div>
+                    <div class="checkbox-input">
+                      <input type="checkbox" id="interest[]" name="interest[]" value="dining">
+                      <label for="interest[]">Places to Eat</label>
+                    </div>
+                  </fieldset>
+                </div>
+
+                <div>
+                  <label for="phone">Phone Number</label>
+                  <input id="phone" type="tel" placeholder="+353 61 000 000" name="phone" required />
+
+                  <button class="btn btn--form">Send</button>
+                </div>
 
 
 
               </form>
             </div>
-            <div
-              class="contact-img-box"
-              role="img"
-              aria-label="Limerick City"
-            ></div>
+            <div class="contact-img-box" role="img" aria-label="Limerick City"></div>
           </div>
         </div>
       </section>
@@ -180,19 +136,19 @@ Images used within this project are used with the permission of their respective
 
           <ul class="social-links">
             <li>
-              <a class="footer-link" href="#"
-                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
-              ></a>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+              </a>
             </li>
             <li>
-              <a class="footer-link" href="#"
-                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
-              ></a>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+              </a>
             </li>
             <li>
-              <a class="footer-link" href="#"
-                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
-              ></a>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+              </a>
             </li>
           </ul>
 
@@ -209,11 +165,8 @@ Images used within this project are used with the permission of their respective
               Limerick, Limerick City, Limerick, Ireland
             </p>
             <p>
-              <a class="footer-link" href="tel:061-000000">061-000-000</a
-              ><br />
-              <a class="footer-link" href="mailto:hello@limericklens.fake"
-                >hello@limericklens.com</a
-              >
+              <a class="footer-link" href="tel:061-000000">061-000-000</a><br />
+              <a class="footer-link" href="mailto:hello@limericklens.fake">hello@limericklens.com</a>
             </p>
           </address>
         </div>
@@ -250,4 +203,5 @@ Images used within this project are used with the permission of their respective
       </div>
     </footer>
   </body>
+
 </html>
